@@ -184,7 +184,7 @@ namespace PaleTree.Shared
 		public const int CZ_SKILL_TARGET_ANI = 0xC6B; // Size: 23
 		public const int CZ_SKILL_GROUND = 0xC6C; // Size: 61
 		public const int CZ_SKILL_SELF = 0xC6D; // Size: 35
-		public const int CZ_SKILL_CANCEL = 0xC6E; // Size: 11
+		public const int CZ_SKILL_CANCEL = 0xC6E; // Size: 12
 		public const int CZ_HOLD = 0xC6F; // Size: 11
 		public const int CZ_ROTATE = 0xC70; // Size: 18
 		public const int CZ_HEAD_ROTATE = 0xC71; // Size: 18
@@ -810,7 +810,7 @@ namespace PaleTree.Shared
 			_sizes[Op.CZ_SKILL_TARGET_ANI] = 23;
 			_sizes[Op.CZ_SKILL_GROUND] = 61;
 			_sizes[Op.CZ_SKILL_SELF] = 35;
-			_sizes[Op.CZ_SKILL_CANCEL] = 11;
+			_sizes[Op.CZ_SKILL_CANCEL] = 12;
 			_sizes[Op.CZ_HOLD] = 11;
 			_sizes[Op.CZ_ROTATE] = 18;
 			_sizes[Op.CZ_HEAD_ROTATE] = 18;
