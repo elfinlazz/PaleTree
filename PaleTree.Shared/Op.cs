@@ -8,8 +8,8 @@ namespace PaleTree.Shared
 {
 	public static class Op
 	{
-		public const int CB_LOGIN = 0x03; // Size: 66
-		public const int CB_LOGIN_BY_PASSPORT = 0x04; // Size: 1068
+		public const int CB_LOGIN = 0x03; // Size: 74
+		public const int CB_LOGIN_BY_PASSPORT = 0x04; // Size: 1076
 		public const int CB_LOGOUT = 0x05; // Size: 10
 		public const int CB_START_BARRACK = 0x06; // Size: 11
 		public const int CB_COMMANDER_CREATE = 0x07; // Size: 96
@@ -20,7 +20,7 @@ namespace PaleTree.Shared
 		public const int CB_BARRACKNAME_CHANGE = 0x0C; // Size: 74
 		public const int CB_COMMANDER_MOVE = 0x0D; // Size: 31
 		public const int CB_ECHO = 0x0E; // Size: 30
-		public const int BC_LOGINOK = 0x0F; // Size: 121
+		public const int BC_LOGINOK = 0x0F; // Size: 129
 		public const int BC_LOGIN_PACKET_RECEIVED = 0x10; // Size: 6
 		public const int BC_LOGOUTOK = 0x11; // Size: 6
 		public const int BC_COMMANDER_LIST = 0x12; // Size: 0
@@ -89,7 +89,7 @@ namespace PaleTree.Shared
 		public const int CS_LIKE_IT_CONFIRM = 0xB6E; // Size: 16
 		public const int CS_ADD_RELATION_SCORE = 0xB6F; // Size: 88
 		public const int CS_GET_LIKE_COUNT = 0xB70; // Size: 16
-		public const int CZ_CONNECT = 0xBB9; // Size: 1200
+		public const int CZ_CONNECT = 0xBB9; // Size: 1208
 		public const int ZC_CONNECT_OK = 0xBBA; // Size: 0
 		public const int ZC_MOVE_ZONE = 0xBBB; // Size: 7
 		public const int CZ_MOVE_ZONE_OK = 0xBBC; // Size: 10
@@ -635,8 +635,8 @@ namespace PaleTree.Shared
 
 		static Op()
 		{
-			_sizes[Op.CB_LOGIN] = 66;
-			_sizes[Op.CB_LOGIN_BY_PASSPORT] = 1068;
+			_sizes[Op.CB_LOGIN] = 74;
+			_sizes[Op.CB_LOGIN_BY_PASSPORT] = 1076;
 			_sizes[Op.CB_LOGOUT] = 10;
 			_sizes[Op.CB_START_BARRACK] = 11;
 			_sizes[Op.CB_COMMANDER_CREATE] = 96;
@@ -647,7 +647,7 @@ namespace PaleTree.Shared
 			_sizes[Op.CB_BARRACKNAME_CHANGE] = 74;
 			_sizes[Op.CB_COMMANDER_MOVE] = 31;
 			_sizes[Op.CB_ECHO] = 30;
-			_sizes[Op.BC_LOGINOK] = 121;
+			_sizes[Op.BC_LOGINOK] = 129;
 			_sizes[Op.BC_LOGIN_PACKET_RECEIVED] = 6;
 			_sizes[Op.BC_LOGOUTOK] = 6;
 			_sizes[Op.BC_COMMANDER_LIST] = 0;
@@ -716,7 +716,7 @@ namespace PaleTree.Shared
 			_sizes[Op.CS_LIKE_IT_CONFIRM] = 16;
 			_sizes[Op.CS_ADD_RELATION_SCORE] = 88;
 			_sizes[Op.CS_GET_LIKE_COUNT] = 16;
-			_sizes[Op.CZ_CONNECT] = 1200;
+			_sizes[Op.CZ_CONNECT] = 1208;
 			_sizes[Op.ZC_CONNECT_OK] = 0;
 			_sizes[Op.ZC_MOVE_ZONE] = 7;
 			_sizes[Op.CZ_MOVE_ZONE_OK] = 10;
